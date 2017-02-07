@@ -1,2 +1,3 @@
-# first
-just a try
+天野喵
+
+Js从入门到放弃全纪录
