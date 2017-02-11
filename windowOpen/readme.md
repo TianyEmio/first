@@ -8,8 +8,8 @@
 ----
 在文档中使用onclick调用js函数就像用style设置css属性一样，缺乏效率，容易引发问题<br />
 更好的方式是用挂钩：class\id，将js于html彻底分离<br />
-在外部讲一个时间加入html文档：element.event=action<br />
-将时间添加到某个带有特定ID属性的元素上：getElementById(id).event=action.<br />
+在外部将一个事件加入html文档：element.event=action<br />
+将事件添加到某个带有特定ID属性的元素上：getElementById(id).event=action.<br />
  
 ---------
 向后兼容/性能考虑
