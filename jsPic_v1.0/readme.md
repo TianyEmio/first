@@ -3,14 +3,14 @@
 
  关于this
  ------ 
- 函数的参数”this”表示<这个a节点>
+ <p>函数的参数”this”表示<这个a节点>
  通常的函数调用，有另外一种形式
  func(p1, p2) 等价于
 func.call(undefined, p1, p2)
 
 obj.child.method(p1, p2) 等价于
 obj.child.method.call(obj.child, p1, p2)
-this就是func.call(context, p1, p2)中的context
+this就是func.call(context, p1, p2)中的context</p>
  ------
  关于return false
  ------
