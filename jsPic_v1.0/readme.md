@@ -3,7 +3,7 @@
 
  关于this
  ------ 
- <p>函数的参数”this”表示<这个a节点>
+ <p>函数的参数”this”表示<这个a节点> /n
  通常的函数调用，有另外一种形式
  func(p1, p2) 等价于
 func.call(undefined, p1, p2)
