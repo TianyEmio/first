@@ -13,7 +13,7 @@
  5.类型检测：<br/>
             typeof：返回一个字符串，适合基本类型和函数对象(NaN返回‘number’，null返回'object',相当于对null失效)，可能的字符串有："number"、"string"、"boolean"、"object"、"function" 和 "undefined"。 ；<br/>
             obj instanceof Object:判断对象类型（原型链），判断左边的原型链上有没有右边构造函数的prototype属性 /不能用来检测不同window或iframe间的对象；<br/>
-            object.prototype.toString.apply();  <br/>
+            object.prototype.toString.apply();  返回字符串 <br/>
             constructor  <br/>
             duck type  <br/><br/><br/>
  * * *
