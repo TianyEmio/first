@@ -15,6 +15,8 @@
             object.prototype.toString.apply();  <br/>
             constructor  <br/>
             duck type  <br/><br/><br/>
- ##二、
+ * * *
+ 二、
+ ---
  
  
