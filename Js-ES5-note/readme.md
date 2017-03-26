@@ -11,11 +11,11 @@
    等于：a==b ：类型相同时，和严格等于相同 / 类型不同：null==undefined / number==string ：转number 如1=='1.0' true / boolean==? ：转number true-1 false-0 / object == number|string 转对象为基本类型 new String ('hi')=='hi' ture 。<br/><br/>
  4.包装对象：尝试将基本类型（num string boolean）用对象的方式使用（比如访问.length ,比如增加属性），JS会把基本类型转换为包装类型对象，相当于new 了一个对象，完成访问后临时对象会被销毁。<br/><br/>
  5.类型检测：<br/>
-          >  typeof：返回一个字符串，适合基本类型和函数对象(NaN返回‘number’，null返回'object',相当于对null失效)，可能的字符串有："number"、"string"、"boolean"、"object"、"function" 和 "undefined"。 ；<br/>
-           > obj instanceof Object:判断对象类型（原型链），判断左边的原型链上有没有右边构造函数的prototype属性 /不能用来检测不同window或iframe间的对象；<br/>
-           > object.prototype.toString.apply();  返回字符串 [object + 结果]<br/>
-           > constructor  <br/>
-           > duck type  <br/><br/><br/>
+> typeof：返回一个字符串，适合基本类型和函数对象(NaN返回‘number’，null返回'object',相当于对null失效)，可能的字符串有："number"、"string"、"boolean"、"object"、"function" 和 "undefined"。 ；<br/>
+> obj instanceof Object:判断对象类型（原型链），判断左边的原型链上有没有右边构造函数的prototype属性 /不能用来检测不同window或iframe间的对象；<br/>
+> object.prototype.toString.apply();  返回字符串 [object + 结果]<br/>
+> constructor  <br/>
+> duck type  <br/><br/><br/>
  * * *
  二、
  ---
